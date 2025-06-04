@@ -1,0 +1,99 @@
+:root {
+  --primary: #0099cc;
+  --accent: #ff4081;
+  --bg: #f5f7fa;
+  --text: #333;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.section {
+  padding: 2em;
+}
+
+h2 {
+  color: var(--primary);
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e91e63;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+li {
+  background: #e0f7fa;
+  padding: 0.5em;
+  margin: 0.3em 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #b2ebf2;
+}
+
+#productList div {
+  background: #fce4ec;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 0.5em 0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
